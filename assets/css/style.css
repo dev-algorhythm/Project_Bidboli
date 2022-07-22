@@ -1,0 +1,78 @@
+/* SignUp CSS */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bg_blue {
+    background-color: #0B326D;
+    color: #0B326D;
+    font-weight: bold;
+    height: 770px;
+}
+
+.col-4 {
+    background-color: #DCE4EB;
+    border: none;
+    border-radius: 8px 0px 30px 8px;
+}
+
+
+li {
+    background-color: white;
+    border-radius: 8px;
+}
+
+h1 {
+    color: #0B326D;
+}
+
+.oran_but {
+    background-color: #FF663E;
+}
+
+a {
+    color: #FF663E;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cent_prop_bl {
+    transform: translate(200px, 200px);
+}
+
+.cent_prop_wh {
+    transform: translate(200px, 20px)
+}
+
+/* HomePage CSS */
+.gre_bg {
+    background-color: #FAFAFA;
+    padding-bottom: 50%;
+}
+
+.white_bg {
+    background-color: white;
+    
+}
+
+header p {
+    font-size: 13px;
+    padding-top: 0px;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+    padding: 0;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+.bid_bg {
+    background-image: url(/assets/images/bid.jpg);
+    background-repeat: no-repeat;
+    width: 80%;
+    height: auto;
+}
