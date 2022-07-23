@@ -4,75 +4,37 @@
     padding: 0;
 }
 
-.bg_blue {
+.blue_bg{
     background-color: #0B326D;
-    color: #0B326D;
-    font-weight: bold;
-    height: 770px;
 }
 
-.col-4 {
-    background-color: #DCE4EB;
-    border: none;
-    border-radius: 8px 0px 30px 8px;
-}
-
-
-li {
-    background-color: white;
-    border-radius: 8px;
-}
-
-h1 {
-    color: #0B326D;
-}
-
-.oran_but {
+.oran_bg{
     background-color: #FF663E;
 }
 
-a {
-    color: #FF663E;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.cent_prop_bl {
-    transform: translate(200px, 200px);
-}
-
-.cent_prop_wh {
-    transform: translate(200px, 20px)
-}
-
-/* HomePage CSS */
-.gre_bg {
-    background-color: #FAFAFA;
-    padding-bottom: 50%;
-}
-
-.white_bg {
+.white_bg{
     background-color: white;
-
 }
 
-header p {
-    font-size: 13px;
-    padding-top: 0px;
+.blue_tex{
+    color: #0B326D;
 }
 
-.list-inline-item:not(:last-child) {
-    margin: 0;
-    padding: 0;
+.grey_bg{
+    background-color: #DCE4EB;
 }
 
-img:hover {
-    cursor: pointer;
+.blo_radi{
+    border: none;
+    border-radius: 0 0 830px 0;
 }
 
-.bid_bg {
-    background-image: url(/assets/images/bid.jpg);
-    background-repeat: no-repeat;
-    width: 80%;
-    height: auto;
+.lin_col{
+    text-decoration: none;
+    color: #FF663E;
+}
+
+.lin_col:hover{
+    color: #FF663E;
+    text-decoration: underline;
 }
