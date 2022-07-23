@@ -4,37 +4,74 @@
     padding: 0;
 }
 
-.blue_bg{
+.blue_bg {
     background-color: #0B326D;
 }
 
-.oran_bg{
+.oran_bg {
     background-color: #FF663E;
 }
 
-.white_bg{
+.white_bg {
     background-color: white;
 }
 
-.blue_tex{
+.blue_tex {
     color: #0B326D;
 }
 
-.grey_bg{
+.grey_bg {
     background-color: #DCE4EB;
 }
 
-.blo_radi{
+.blo_radi {
     border: none;
     border-radius: 0 0 830px 0;
 }
 
-.lin_col{
+.lin_col {
     text-decoration: none;
     color: #FF663E;
 }
 
-.lin_col:hover{
+.lin_col:hover {
     color: #FF663E;
     text-decoration: underline;
+}
+
+/* HomePage CSS */
+.bid_img {
+    background-image: url(/assets/images/bid.jpg);
+    height: 25vh;
+}
+
+.brows_hov {
+    color: #6C757D;
+}
+
+.brows_hov:hover {
+    background-color: #FF663E;
+    color: white;
+    transition: .5s;
+}
+
+.sel_item_bg {
+    background-image: url(/assets/images/bid_lapt.jpg);
+    height: 23vh;
+    background-repeat: no-repeat;
+}
+
+.sel_item_bg>p {
+    background-color: #CC3300;
+    border: none;
+    border-radius: 0 25px 0 0;
+    transform: translate(0px, 140px);
+}
+
+.sel_item_bg>img {
+    transform: translate(265px, 130px);
+}
+
+.gre_sm_tex{
+    font-size: 13px;
 }
