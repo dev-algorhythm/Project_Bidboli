@@ -72,6 +72,12 @@
     transform: translate(265px, 130px);
 }
 
-.gre_sm_tex{
+.sm_tex {
     font-size: 13px;
+}
+
+.wha_bidbol p {
+    color: #C6D5E1;
+    padding-left: 200px;
+    padding-right: 200px;
 }
