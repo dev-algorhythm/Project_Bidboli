@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+
 }
 
 .blue_bg {
@@ -42,7 +43,15 @@
 /* HomePage CSS */
 .bid_img {
     background-image: url(/assets/images/bid.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    size: fixed;
     height: 25vh;
+}
+
+.bid_bg_tex {
+    transform: translate(20px, 20px);
+    padding-left: 120px;
 }
 
 .brows_hov {
@@ -55,21 +64,35 @@
     transition: .5s;
 }
 
+.view_but{
+    background-color: #0B326D;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+.view_but:hover{
+    background-color: rgb(235, 235, 235);
+    color: #0B326D;
+    font-weight: bold;
+    transition: .5s;
+}
+
 .sel_item_bg {
     background-image: url(/assets/images/bid_lapt.jpg);
     height: 23vh;
     background-repeat: no-repeat;
 }
 
-.sel_item_bg>p {
+.sel_item_bg .row p {
     background-color: #CC3300;
     border: none;
     border-radius: 0 25px 0 0;
     transform: translate(0px, 140px);
 }
 
-.sel_item_bg>img {
-    transform: translate(265px, 130px);
+.sel_item_bg .row img {
+    transform: translate(100px, 130px);
 }
 
 .sm_tex {
@@ -80,4 +103,21 @@
     color: #C6D5E1;
     padding-left: 200px;
     padding-right: 200px;
+}
+
+.blog_hei {
+    height: 160px;
+}
+
+.join_inp {
+    width: 350px;
+}
+
+.suppor_bg {
+    background-image: url(/assets/images/support_img.jpg);
+    height: 45vh;
+}
+
+.suppor_trans{
+    transform: translate(200px ,100px);
 }
