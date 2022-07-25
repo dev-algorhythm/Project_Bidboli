@@ -64,14 +64,14 @@
     transition: .5s;
 }
 
-.view_but{
+.view_but {
     background-color: #0B326D;
     color: white;
     font-weight: bold;
     border: none;
 }
 
-.view_but:hover{
+.view_but:hover {
     background-color: rgb(235, 235, 235);
     color: #0B326D;
     font-weight: bold;
@@ -80,7 +80,7 @@
 
 .sel_item_bg {
     background-image: url(/assets/images/bid_lapt.jpg);
-    height: 23vh;
+    height: 25vh;
     background-repeat: no-repeat;
 }
 
@@ -91,18 +91,12 @@
     transform: translate(0px, 140px);
 }
 
-.sel_item_bg .row img {
-    transform: translate(100px, 130px);
-}
-
 .sm_tex {
     font-size: 13px;
 }
 
 .wha_bidbol p {
     color: #C6D5E1;
-    padding-left: 200px;
-    padding-right: 200px;
 }
 
 .blog_hei {
@@ -118,6 +112,6 @@
     height: 45vh;
 }
 
-.suppor_trans{
-    transform: translate(200px ,100px);
+.suppor_trans {
+    transform: translate(200px, 100px);
 }
