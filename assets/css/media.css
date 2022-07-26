@@ -1,0 +1,9 @@
+/* For Mobiles */
+@media screen and (min-width:576px) and (max-width:767px) {
+    .suppor_tex {
+        text-align: center;
+        padding-left: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}

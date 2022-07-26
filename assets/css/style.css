@@ -2,7 +2,6 @@
 * {
     margin: 0;
     padding: 0;
-
 }
 
 .blue_bg {
@@ -112,6 +111,7 @@
     height: 45vh;
 }
 
-.suppor_trans {
-    transform: translate(200px, 100px);
+.suppor_tex {
+    padding-top: 70px;
+    padding-left: 200px;
 }
