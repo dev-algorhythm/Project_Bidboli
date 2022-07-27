@@ -1,9 +1,82 @@
 /* For Mobiles */
 @media screen and (min-width:576px) and (max-width:767px) {
+
+    .bid_bg_tex {
+        padding: 0;
+    }
+
     .suppor_tex {
         text-align: center;
+        padding-right: 30px;
         padding-left: 30px;
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .sel_item_bg .row p {
+        transform: translate(0, 142px);
+    }
+}
+
+/* For Tablets */
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .bid_bg_tex {
+        padding-left: 50px;
+    }
+
+    .suppor_tex {
+        text-align: center;
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .sel_item_bg .row p {
+        transform: translate(0, 142px);
+    }
+
+    .blu_bloc {
+        margin-left: 125px;
+    }
+
+    .item_pad {
+        padding-left: 130px;
+    }
+
+    .wor_pad {
+        padding-left: 40px;
+    }
+}
+
+/* For Desktops */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .bid_bg_tex {
+        padding-left: 50px;
+    }
+
+    .suppor_tex {
+        padding-right: 200px;
+        padding-left: 200px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .sel_item_bg .row p {
+        transform: translate(0, 141px);
+    }
+
+    .blu_bloc {
+        margin-left: 170px;
+    }
+
+    .item_pad {
+        padding-left: 130px;
+    }
+
+    .wor_pad {
+        padding-left: 170px;
     }
 }

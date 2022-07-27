@@ -45,7 +45,7 @@
     background-repeat: no-repeat;
     background-position: center;
     size: fixed;
-    height: 25vh;
+    height: 24vh;
 }
 
 .bid_bg_tex {
@@ -79,15 +79,20 @@
 
 .sel_item_bg {
     background-image: url(/assets/images/bid_lapt.jpg);
+    background-position: center;
     height: 25vh;
     background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .sel_item_bg .row p {
     background-color: #CC3300;
     border: none;
     border-radius: 0 25px 0 0;
-    transform: translate(0px, 140px);
+    transform: translate(0px, 166px);
 }
 
 .sm_tex {
@@ -108,6 +113,7 @@
 
 .suppor_bg {
     background-image: url(/assets/images/support_img.jpg);
+    background-position: center;
     height: 45vh;
 }
 
