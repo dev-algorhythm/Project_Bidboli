@@ -50,7 +50,7 @@
 
 .bid_bg_tex {
     transform: translate(20px, 20px);
-    padding-left: 120px;
+    padding-left: 140px;
 }
 
 .brows_hov {
@@ -92,7 +92,6 @@
     background-color: #CC3300;
     border: none;
     border-radius: 0 25px 0 0;
-    transform: translate(0px, 166px);
 }
 
 .sm_tex {
