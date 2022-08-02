@@ -42,15 +42,21 @@
 /* HomePage CSS */
 .bid_img {
     background-image: url(/assets/images/bid.jpg);
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
     background-position: center;
     size: fixed;
     height: 24vh;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 .bid_bg_tex {
     transform: translate(20px, 20px);
-    padding-left: 140px;
+    padding-left: 14px;
+}
+
+.but_bor {
+    border-color: #606263;
 }
 
 .brows_hov {
