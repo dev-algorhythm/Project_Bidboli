@@ -101,10 +101,10 @@
 }
 
 .sm_tex {
-    font-size: 13px;
+    font-size: 14px;
 }
 
-.wha_bidbol p {
+.grey_tex {
     color: #C6D5E1;
 }
 
@@ -125,4 +125,13 @@
 .suppor_tex {
     padding-top: 70px;
     padding-left: 200px;
+}
+
+.wha_bid_p{
+    padding-left: 220px;
+    padding-right: 220px;
+}
+
+.adob_ff{
+    font-family: adobe-clean, sans-serif;
 }
