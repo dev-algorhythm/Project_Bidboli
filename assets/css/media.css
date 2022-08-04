@@ -1,6 +1,8 @@
 /* For Very Small Devices */
-@media screen and (min-width:320px) and (max-width:450px) {
-    *,ul {
+@media screen and (min-width:320px) and (max-width:420px) {
+
+    *,
+    ul {
         margin: 0;
         padding: 0;
     }
@@ -56,31 +58,31 @@
         position: absolute;
     }
 
-    .wha_bid_p{
+    .wha_bid_p {
         padding: 0;
     }
 
-    .circ_img{
+    .circ_img {
         display: none;
     }
 
-    .wor_bg_img{
+    .wor_bg_img {
         width: 105%;
         height: auto;
         margin-bottom: 50px;
     }
 
-    .sm_fs{
+    .sm_fs {
         font-size: 15px;
         padding-left: 12px;
     }
 
-    .num_lin_img{
+    .num_lin_img {
         width: auto;
         height: auto;
     }
 
-    .suppor_tex{
+    .suppor_tex {
         padding-left: 30px;
         padding-top: 20px;
         padding-bottom: 20px;
