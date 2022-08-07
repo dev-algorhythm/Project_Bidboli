@@ -1,5 +1,5 @@
 /* For Very Small Devices */
-@media screen and (min-width:321px) and (max-width:380px) {
+@media screen and (min-width:319px) and (max-width:399px) {
 
     *,
     ul {
@@ -7,31 +7,39 @@
         padding: 0;
     }
 
-    .img_cent {
+    .img_cent{
         text-align: center;
-        margin-top: 10px;
-        margin-bottom: 10px;
+
     }
 
-    .bid_bg_tex {
-        transform: translate(0px, 20px);
-        padding-left: 5px;
+    .bid_img {
+        width: 100%;
+        height: 25%;
     }
 
-    .bid_bg_tex h4 {
-        font-size: 16px;
+    .bid_img_tex {
+        transform: translate(10px, 10px);
     }
 
-    .bid_bg_tex p {
+    .bid_img_tex h3 {
+        font-size: 18px;
+    }
+
+    .bid_img_tex h5 {
         font-size: 15px;
         margin-bottom: 8px;
     }
 
-    .bid_bg_tex button {
+    .bid_img_tex button {
         margin-top: 10px;
         size: 10px;
         padding: 1px;
         border-radius: 0;
+    }
+
+    .bid_img_mar {
+        padding: 0;
+        padding-top: 30px;
     }
 
     .adob_ff {
@@ -44,6 +52,11 @@
 
     .brows_hov {
         margin-top: 10px;
+    }
+
+    .likebox {
+        left: 3.6%;
+        top: 6%;
     }
 
     .wha_bid_p {
@@ -61,17 +74,13 @@
         padding-bottom: 20px;
     }
 
-
-
+    .num_img {
+        width: 35px;
+    }
 }
 
 /* For Mobiles */
 @media screen and (min-width:576px) and (max-width:767px) {
-    .bid_img {
-        margin: 0;
-
-    }
-
     .bid_bg_tex {
         padding: 0;
     }
