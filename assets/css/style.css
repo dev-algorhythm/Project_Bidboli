@@ -40,21 +40,22 @@
 }
 
 /* HomePage CSS */
+
 .flo_hid {
     overflow-x: hidden;
 }
 
 .bid_img {
-    background-image: url(/assets/images/bid.jpg);
-    background-position: center;
-    width: 1440px;
-    height: 200px;
+    position: absolute;
+    width: 89%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
 }
 
-.bid_bg_tex {
+.bid_img_tex {
     position: relative;
-    transform: translate(45px, 30px);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    transform: translate(80px, 40px);
 }
 
 .but_bor {
@@ -92,10 +93,15 @@
 }
 
 .lap_img {
-    width: 42vh;
-    text-align: center;
-    padding-left: 10px;
-    padding-top: 10px;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 10px;
+}
+
+.bid_img_mar {
+    padding-top: 100px;
 }
 
 .prod-thumb {
@@ -114,7 +120,7 @@
     padding-left: 10px;
     padding-top: 3px;
     padding-bottom: 3px;
-    bottom: 0;
+    bottom: 10px;
     left: 0;
     background-color: #CC3300;
     border: none;
@@ -123,11 +129,8 @@
 
 .likebox {
     margin-right: 10px;
-    bottom: 0;
+    bottom: 10px;
     right: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     text-decoration: none;
 }
 
@@ -137,6 +140,13 @@
 
 .grey_tex {
     color: #C6D5E1;
+}
+
+.wor_img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .blog_hei {

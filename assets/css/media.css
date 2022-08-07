@@ -1,5 +1,5 @@
 /* For Very Small Devices */
-@media screen and (min-width:320px) and (max-width:380px) {
+@media screen and (min-width:321px) and (max-width:380px) {
 
     *,
     ul {
@@ -11,10 +11,6 @@
         text-align: center;
         margin-top: 10px;
         margin-bottom: 10px;
-    }
-
-    .bid_img {
-   
     }
 
     .bid_bg_tex {
@@ -50,41 +46,13 @@
         margin-top: 10px;
     }
 
-    .lap_img {
-        width: 295px;
-        padding: 9px;
-    }
-
-    .deadline {
-        margin-left: 9px;
-        bottom: 5%;
-        padding-right: 20px;
-    }
-
-    .likebox {
-        margin: 0;
-        bottom: 71%;
-        right: 84%;
-    }
-
     .wha_bid_p {
         padding: 0;
-    }
-
-    .wor_bg_img {
-        width: 105%;
-        height: auto;
-        margin-bottom: 50px;
     }
 
     .sm_fs {
         font-size: 15px;
         padding-left: 12px;
-    }
-
-    .num_lin_img {
-        width: auto;
-        height: auto;
     }
 
     .suppor_tex {
