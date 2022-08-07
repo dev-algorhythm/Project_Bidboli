@@ -7,9 +7,8 @@
         padding: 0;
     }
 
-    .img_cent{
+    .img_cent {
         text-align: center;
-
     }
 
     .bid_img {
@@ -76,6 +75,75 @@
 
     .num_img {
         width: 35px;
+    }
+}
+
+@media screen and (min-width:400px) and (max-width:575px) {
+
+    *,
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    .img_cent {
+        text-align: center;
+    }
+
+    .bid_img {
+        width: 100%;
+        height: 25%;
+    }
+
+    .bid_img_tex {
+        transform: translate(10px, 10px);
+    }
+
+    .bid_img_tex h3 {
+        font-size: 19px;
+    }
+
+    .bid_img_tex h5 {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+
+    .bid_img_tex button {
+        margin-top: 10px;
+        size: 10px;
+        padding: 1px;
+        border-radius: 0;
+    }
+
+    .bid_img_mar {
+        padding: 0;
+        padding-top: 30px;
+    }
+
+    .brows_hov {
+        margin-top: 10px;
+    }
+
+    .wha_bid_p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .sm_fs {
+        font-size: 16px;
+        padding-left: 12px;
+        padding-top: 10px;
+    }
+
+    .productbox{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .suppor_tex{
+        padding-left: 40px;
+        padding-top: 10px;
+        padding-bottom: 20px;
     }
 }
 
