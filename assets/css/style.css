@@ -78,6 +78,12 @@
     border: none;
 }
 
+.deta_but:hover {
+    background-color: rgb(235, 235, 235);
+    color: #0B326D;
+    transition: .5s;
+}
+
 .view_but:hover {
     background-color: rgb(235, 235, 235);
     color: #0B326D;
