@@ -135,92 +135,107 @@
         padding-top: 10px;
     }
 
-    .productbox{
+    .productbox {
         margin-left: 10px;
         margin-right: 10px;
     }
 
-    .suppor_tex{
+    .suppor_tex {
         padding-left: 40px;
         padding-top: 10px;
         padding-bottom: 20px;
     }
+
+    .circ_img {
+        padding-left: 30px;
+        padding-right: 20px;
+    }
 }
 
 /* For Mobiles */
-@media screen and (min-width:576px) and (max-width:767px) {
-    .bid_bg_tex {
-        padding: 0;
-    }
-
-    .suppor_tex {
-        text-align: center;
-        padding-right: 30px;
-        padding-left: 30px;
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-
-}
+@media screen and (min-width:576px) and (max-width:767px) {}
 
 /* For Tablets */
 
 @media screen and (min-width:768px) and (max-width:991px) {
-    .bid_bg_tex {
-        padding-left: 50px;
+
+    .bid_img {
+        width: 100%;
+        height: 30%;
+    }
+
+    .bid_img_tex {
+        transform: translate(30px, 25px);
+    }
+
+    .bid_img_mar {
+        padding-top: 50px;
+    }
+
+    .view_but {
+        margin-left: 140px;
+    }
+
+    .wha_bid_p {
+        padding: 0;
+    }
+
+    .circ_img {
+        padding-left: 150px;
+        padding-right: 20px;
+    }
+
+    .blu_bloc {
+        margin-left: 120px;
     }
 
     .suppor_tex {
-        text-align: center;
-        padding-right: 30px;
-        padding-left: 30px;
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-
-
-    .blu_bloc {
-        margin-left: 125px;
-    }
-
-    .wor_pad {
-        padding-left: 40px;
-    }
-
-    .item_mar {
-        margin-left: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
 }
 
 /* For Big Screens */
 
 @media screen and (min-width:992px) and (max-width:1199px) {
-    .bid_bg_tex {
-        padding-left: 50px;
+    .bid_img {
+        width: 90%;
+        height: 30%;
     }
 
-    .suppor_tex {
-        padding-right: 200px;
-        padding-left: 200px;
+    .bid_img_tex {
+        transform: translate(65px, 25px);
+    }
+
+    .bid_img_mar {
         padding-top: 50px;
-        padding-bottom: 50px;
     }
 
-
-    .blu_bloc {
-        margin-left: 170px;
+    .wha_bid_p {
+        padding-left: 55px;
+        padding-right: 55px;
     }
 
-    .item_pad {
-        padding-left: 130px;
+    .circ_img {
+        padding-right: 10px;
+        padding-left: 90px;
     }
 
     .wor_pad {
-        padding-left: 170px;
+        padding-left: 130px;
     }
 
-    .item_mar {
-        margin-left: 50px;
+    .blu_bloc {
+        margin-left: 200px;
+    }
+
+    .suppor_tex {
+        padding-left: 150px;
+        padding-right: 150px;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
 
 }
