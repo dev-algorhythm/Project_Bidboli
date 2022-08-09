@@ -176,3 +176,23 @@
 .adob_ff {
     font-family: adobe-clean, sans-serif;
 }
+
+/* Product Page CSS */
+.dar_gre_bg {
+    background-color: #F6F8F9;
+}
+
+.produc_img {
+    width: 110%;
+    height: 125%;
+    max-width: 110%;
+    max-height: 125%;
+    padding-bottom: 100px;
+}
+
+.watc_box{
+    position: absolute;
+    bottom: 83%;
+    right: 0;
+    background-color: #EBE4DF;
+}
