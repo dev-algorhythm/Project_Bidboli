@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+.red_bg{
+    background-color: #D82915;
+}
+
 .blue_bg {
     background-color: #0B326D;
 }
@@ -183,16 +187,27 @@
 }
 
 .produc_img {
-    width: 110%;
-    height: 125%;
-    max-width: 110%;
-    max-height: 125%;
-    padding-bottom: 100px;
+    width: 112%;
+    height: 135%;
+    max-width: 122%;
+    max-height: 135%;
+    padding-bottom: 135px;
 }
 
 .watc_box{
     position: absolute;
-    bottom: 83%;
-    right: 0;
+    bottom: 88%;
+    right: 0%;
     background-color: #EBE4DF;
+}
+
+.ora_bor{
+    border: 2px solid #FF663E;
+}
+
+.othe_pro{
+    width: 125%;
+    height: 110%;
+    max-width: 135%;
+    max-height:120%;
 }
