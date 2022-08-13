@@ -10,21 +10,138 @@
 </head>
 
 <body>
-  <button class="btn btn-lg bg-primary text-light">
-    Example button
-  </button>
-  <h3>THIS IS A HEADING</h3>
-  <p class="test fw-bold">This is TEST</p>
-  <p class="test1 fw-bold">THIS IS TEST2</p>
-  <p class="test2 fw-bold">THIS IS TEST3</p>
-  <p class="para fw-bold">This Is Para</p>
-  <input type="email" class="inp_1">
+  <div class="container">
+    <button class="btn btn-lg bg-primary text-light">
+      Example button
+    </button>
+    <h3>THIS IS A HEADING</h3>
+    <p class="test fw-bold">This is TEST</p>
+    <p class="test1 fw-bold">THIS IS TEST2</p>
+    <p class="test2 fw-bold">THIS IS TEST3</p>
+    <p class="para fw-bold">This Is Para</p>
+    <input type="email" class="text-light inp_1" name="email" id="email" placeholder="Email" required>
+    <br>
+
+    <p class="sh_p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi, velit!</p>
+    <button id="show" class="btn btn-lg">Show</button>
+    <button id="hide" class="btn btn-lg">Hide</button>
+    <br>
+
+    <p class="sh_hi_p">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+    <button class="btn btn-lg bg-danger text-light sh_hi_but">Show and Hide in One Button</button>
+    <br>
+
+    <div class="row">
+      <div class="col-3">
+        <button class="my-3 btn btn-lg bg-dark text-light fad_in_but">Button for FADEIN Effect</button>
+        <div class="mt-2 ms-5 fad_in_1" style="background-color: red; width:100px; height: 100px; display: none;"></div>
+        <div class="mt-2 ms-5 fad_in_2" style="background-color: green; width:100px; height: 100px; display: none;">
+        </div>
+        <div class="mt-2 ms-5 fad_in_3" style="background-color: blue; width:100px; height: 100px; display: none;">
+        </div>
+      </div>
+      <div class="col-3">
+        <button class="my-3 btn btn-lg bg-dark text-light fad_out_but">Button for FADEOUT Effect</button>
+        <div class="mt-2 ms-5 fad_out_1" style="background-color: red; width:100px; height: 100px;"></div>
+        <div class="mt-2 ms-5 fad_out_2" style="background-color: green; width:100px; height: 100px;"></div>
+        <div class="mt-2 ms-5 fad_out_3" style="background-color: blue; width:100px; height: 100px;"></div>
+      </div>
+      <div class="col-3">
+        <button class="my-3 btn btn-lg bg-dark text-light fad_tog_but">Button for FADETOGGLE Effect</button>
+        <div class="mt-2 ms-5 fad_tog_1" style="background-color: red; width:100px; height: 100px;"></div>
+        <div class="mt-2 ms-5 fad_tog_2" style="background-color: green; width:100px; height: 100px;"></div>
+        <div class="mt-2 ms-5 fad_tog_3" style="background-color: blue; width:100px; height: 100px;"></div>
+      </div>
+      <div class="col-3">
+        <button class="my-3 btn btn-lg bg-dark text-light fad_to_but">Button for FADETO Effect</button>
+        <div class="mt-2 ms-5 fad_to_1" style="background-color: red; width:100px; height: 100px;"></div>
+        <div class="mt-2 ms-5 fad_to_2" style="background-color: green; width:100px; height: 100px;"></div>
+        <div class="mt-2 ms-5 fad_to_3" style="background-color: blue; width:100px; height: 100px;"></div>
+      </div>
+    </div>
+    <div class="row my-4">
+      <div class="col-3">
+        <div id="sli_dow_pan"
+          style="padding: 5px; text-align: center; background-color: #00d0ff; border: solid 1px black; color: white; font-weight: bold;cursor: pointer;">
+          Click me to
+          Slide Down</div>
+        <div id="sli_dow_tex"
+          style="display: none; padding: 50px;padding: 5px; text-align: center; background-color: #00d0ff;border: solid 1px black; color: white; font-weight: bold;">
+          Hey Guys, I am Sliding Down</div>
+      </div>
+      <div class="col-3">
+        <div id="sli_up_pan"
+          style="padding: 5px; text-align: center; background-color: #ff0000; border: solid 1px black; color: white; font-weight: bold; cursor: pointer;">
+          Click me to
+          Slide Up</div>
+        <div id="sli_up_tex"
+          style="padding: 50px;padding: 5px; text-align: center; background-color: #ff0000;border: solid 1px black; color: white; font-weight: bold;">
+          Hey Guys, I am Sliding Up</div>
+      </div>
+      <div class="col-3">
+        <div class="sli_tog_pan"
+          style="padding: 5px; text-align: center; background-color: #62ff00; border: solid 1px black; color: white; font-weight: bold;cursor: pointer;">
+          Click me to
+          Slide Both Up and Down</div>
+        <div class="sli_tog_tex"
+          style=" padding: 50px;padding: 5px; text-align: center; background-color: #62ff00;border: solid 1px black; color: white; font-weight: bold;">
+          Hey Guys, I am Sliding Both Up and Down</div>
+      </div>
+      <div class="col-3">
+        <div><button></button></div>
+        <div class="sli_star_tex"
+          style="padding: 5px; text-align: center; background-color: chocolate; border: solid 1px black; color: white; font-weight: bold; cursor: pointer;">
+          Click me to
+          Slide Both Up and Down</div>
+        <div class="sli_tog"
+          style=" padding: 50px;padding: 5px; text-align: center; background-color: chocolate;border: solid 1px black; color: white; font-weight: bold;">
+          Hey Guys, I am Sliding Both Up and Down</div>
+      </div>
+    </div>
+
+    <!-- Animated Code -->
+    <!-- <div>
+      <button id="lef_anim_but" class="mb-3 btn btn-lg bg-danger text-light   ">Click me for Align 1340px
+        Left</button>
+      <div id="lef_anim_blo" style="background:black; height:100px; width:100px;position: absolute;"></div>
+    </div> -->
+    <br>
+    <div class="row">
+      <div class="col-3">
+        <div>
+          <button id="big_anim_but" class="mb-3 btn btn-lg bg-danger text-light">Click me for Big
+            Animation</button>
+          <div id="big_anim_blo" style="background:red; height:100px; width:100px;"></div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div>
+          <button class="mb-3 btn btn-lg bg-danger text-light tog_hei_but">Click me for Toggle Up and Down</button>
+          <div class="tog_hei_blo" style="background:yellow; height:100px; width:100px;"></div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div>
+          <button class="mb-3 btn btn-lg bg-danger text-light sho_lon_tog_but">Click me for Animate Big and
+            Small</button>
+          <div class="sho_lon_tog" style="background:blue; height:100px; width:100px;"></div>
+        </div>
+      </div>
+    </div>
+    <div class="col-3">
+      <div>
+        <button class="mb-3 btn btn-lg bg-danger text-light bi_sm_but">Click me for Animate Big and Small
+          Text</button>
+        <div class="bi_sm_tex" style="background:green; height:100px; width:100px; position: absolute;">Big Text</div>
+      </div>
+    </div>
 
 
+<iframe src="https://www.w3schools.com/jquery/jquery_stop.asp" frameborder="0" height="200" width="300" title="Iframe Example" target="iframe_a"></iframe>
 
-
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="practice.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="practice.js"></script>
+  </div>
 </body>
 
 </html>
