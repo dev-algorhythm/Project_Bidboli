@@ -59,9 +59,9 @@ $(document).ready(function () {
 
     // FADETO Effect 
     $(".fad_to_but").click(function () {
-        $('.fad_to_1').fadeTo(1000, .80);
-        $('.fad_to_2').fadeTo(2000, .50);
-        $('.fad_to_3').fadeTo(2500, .30);
+        $('.fad_to_1').fadeTo(500, 0);
+        $('.fad_to_2').fadeTo(1000, 0);
+        $('.fad_to_3').fadeTo(1500, 0);
     });
 
     // Slide Down Effect
@@ -69,10 +69,13 @@ $(document).ready(function () {
         $('#sli_dow_tex').slideDown();
     });
 
-    // Slide Up Effect
+    // Slide Up Effect and Callback Effect in Slide Up Effect
     $("#sli_up_pan").click(function () {
-        $('#sli_up_tex').slideUp();
+        $('#sli_up_tex').slideUp(2000, function () {
+            alert("Now, Paragraraph is SlideUp and Hidden")
+        });
     });
+
 
     // Slide Toggle Effect
     $(".sli_tog_pan").click(function () {
@@ -80,8 +83,11 @@ $(document).ready(function () {
     });
 
     // Slide Stop Effect
+    $(".sto_tog").click(function () {
+        $(".sto_eve_tex").slideToggle(2000);
+    });
     $(".sto_eve").click(function () {
-        $('.').stop();
+        $(".sto_eve_tex").stop();
     });
 
 
@@ -115,11 +121,11 @@ $(document).ready(function () {
         sho_lon_tog.animate({ width: '100px', opacity: '0.8' }, "slow");
     });
 
-    $(".bi_sm_but").click(function () {
-        var bi_sm_tex = $(".bi_sm_tex")
-        bi_sm_tex.animate({ left: '500px' }, "slow");
-        bi_sm_tex.animate({ fontSize: '4rem', height: '200px', width: '150px' }, "slow");
-    });
+    // $(".bi_sm_but").click(function () {
+    //     var bi_sm_tex = $(".bi_sm_tex")
+    //     bi_sm_tex.animate({ left: '500px' }, "slow");
+    //     bi_sm_tex.animate({ fontSize: '4rem', height: '200px', width: '150px' }, "slow");
+    // });
 
 
     // This JS is for Alert
@@ -148,4 +154,24 @@ $(document).ready(function () {
             'color': 'white',
         })
     });
+
+    // For Different Alerts on Different Btn Clicks
+    $(".tex_but").click(function () {
+        alert("Text: " + $("#cli_sho").text());
+    });
+
+    $(".html_but").click(function () {
+        alert("Text: " + $("#cli_sho").html());
+    });
+
+    // Show values in Alert Box
+    $("#ale_but").click(function(){
+        alert("Your " + ("Name ") + ("is ") + $("#textbox").val());
+      });
+
+    // Show href Value
+    $("#sho_hre").click(function(){
+        alert($("#href").attr("href"));
+      });
+
 });
